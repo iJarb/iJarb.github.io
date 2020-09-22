@@ -6,8 +6,8 @@
 
 ## Contactos
 
-admpersonal@ibermatica.com
-v.lafuente@ibermatica.com
+admpersonal@ibermatica.com  
+v.lafuente@ibermatica.com   (Veronica La Fuente de Miguel)
 
 ## Ibermatica - BBVA
 
@@ -22,7 +22,7 @@ NPM Configuration
 
 ```cmd
 User:    juanangel.rojo.contractor
-API-KEY: AKCp5aTkx8yzevG6G2VMiq3MChaGM6LcLZedUFCosRyrrYC8gSQARkbnVMnH4rSLkcwbZGqU8
+API-KEY: ************************
  npm config set registry https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo
  curl -u <USER>:<API_KEY> "https://globaldevtools.bbva.com/artifactory/api/npm/auth" --insecure >> ~/.npmrc
 
