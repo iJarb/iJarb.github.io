@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="nl" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla JS Responsive Menu</title>
+    <link rel="stylesheet" href="css/responsivemenu.css">
+    <link rel="stylesheet" href="css/demo.css">
+    <script type="text/javascript">function hasClass(e,t){return e.className.match(new RegExp("(\\s|^)"+t+"(\\s|$)"))}var el=document.documentElement;var cl="no-js";if(hasClass(el,cl)){var reg=new RegExp("(\\s|^)"+cl+"(\\s|$)");el.className=el.className.replace(reg," js")}</script>
+</head>
+<body>
+<div id="wrapper">
+    <nav class="navigation_container navigation_container1" role="navigation" aria-label="Main menu">
+        <ul class="navigation" role="menubar">
+            <li class="demo-heading">Sticky suckerfish menu</li>
+            <li class="active" role="presentation">
+                <a role="menuitem" class="test" href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Home">Home</a>
+            </li>
+            <li role="presentation">
+                <a role="menuitem" href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Item 2">Item 2</a>
+            </li>
+            <li role="presentation">
+                <a role="menuitem" aria-haspopup="true" href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Item 3">Item 3</a>
+                <ul role="menu">
+                    <li role="presentation">
+                        <a role="menuitem" href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Test">Test</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="A long one">A long one</a>
+                        <ul id="fourth-sub-submenu">
+                            <li>
+                                <a href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Test1">Test1</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Test2">Test2</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Test3">Test3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li role="presentation">
+                        <a role="menuitem" href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Test">Test</a>
+                    </li>
+                </ul>
+            </li>
+            <li role="presentation">
+                <a role="menuitem" aria-haspopup="true" href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Item 4 menu">Item 4</a>
+                <ul role="menu">
+                    <li role="presentation">
+                        <a role="menuitem" href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Test">Test</a>
+                    </li>
+                    <li role="presentation">
+                        <a role="menuitem" href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="A long one">A long one</a>
+                    </li>
+                    <li role="presentation">
+                        <a role="menuitem" href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Test">Test</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <nav class="navigation_container navigation_container2" aria-label="Main menu">
+        <ul class="navigation">
+            <li class="demo-heading">Button menu</li>
+            <li>
+                <a class="test" href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Home">Home</a>
+            </li>
+            <li>
+                <a href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Item 2">Item 2</a>
+            </li>
+            <li>
+                <button aria-expanded="true" aria-controls="third-submenu">Item 3</button>
+                <div>
+                    <ul id="third-submenu">
+                        <li>
+                            <a href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Test">Test</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="A long one">A long one</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Test">Test</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <button aria-expanded="true" aria-controls="fourth-submenu">Item 4</button>
+                <div>
+                    <ul id="fourth-submenu">
+                        <li>
+                            <a href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Test">Test</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="A long one">A long one</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Test">Test</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="site">
+        <h1>Bunch of content</h1>
+        <p>Nullam id dolor id nibh <a href="#">ultricies vehicula</a> ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Etiam porta sem malesuada magna mollis euismod. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus.</p>
+        <p>Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor fringilla.</p>
+        <p>Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor.</p>
+        <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Etiam porta sem malesuada magna mollis euismod. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus.</p>
+        <p>Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor fringilla.</p>
+        <p>Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor.</p>
+        <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Etiam porta sem malesuada magna mollis euismod. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus.</p>
+        <p>Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor fringilla.</p>
+        <p>Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor.</p>
+    </div>
+</div>
+
+<!-- loading apollo dependancy -->
+<script src="apollo.js"></script>
+<!-- loading responsive menu -->
+<script src="vanilla.js.responsive.menu.js"></script>
+<!-- initializing the menu -->
+<script type="text/javascript">
+    responsivemenu.init({
+        wrapper: document.querySelector('.navigation_container1'),
+        togglecontent: 'menu',
+        sticky: 1,
+//      animateduration: 1000,
+//      subanimateduration: 1000,
+        onAfterInit: function() {
+            console.log('after init');
+        },
+        onAfterLoad: function() {
+            console.log('after load');
+        },
+        onBeforeToggleOpen: function() {
+            console.log('before toggle open');
+        },
+        onAfterToggleOpen: function() {
+            console.log('after toggle open');
+        },
+        onBeforeToggleClose: function() {
+            console.log('before toggle close');
+        },
+        onAfterToggleClose: function() {
+            console.log('after toggle close');
+        },
+        onBeforeSubToggleOpen: function() {
+            console.log('before sub toggle open');
+        },
+        onAfterSubToggleOpen: function() {
+            console.log('after sub toggle open');
+        },
+        onBeforeSubToggleClose: function() {
+            console.log('before sub toggle close');
+        },
+        onAfterSubToggleClose: function() {
+            console.log('after sub toggle close');
+        }
+    });
+
+    responsivemenu.init({
+      wrapper: document.querySelector('.navigation_container2'),
+      openOnClick: true,
+      arrowNavigation: true,
+      arrowNavigationCycle: true,
+      arrowGridNav: false,
+    });
+</script>
+</body>
+</html>
