@@ -1,173 +1,135 @@
-<!DOCTYPE html>
-<html lang="nl" class="no-js">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iJarb Links</title>
-    <link rel="stylesheet" href="css/responsivemenu.css">
-    <link rel="stylesheet" href="css/demo.css">
-    <script type="text/javascript">function hasClass(e,t){return e.className.match(new RegExp("(\\s|^)"+t+"(\\s|$)"))}var el=document.documentElement;var cl="no-js";if(hasClass(el,cl)){var reg=new RegExp("(\\s|^)"+cl+"(\\s|$)");el.className=el.className.replace(reg," js")}</script>
-</head>
-<body>
-<div id="wrapper">
-    <nav class="navigation_container navigation_container1" role="navigation" aria-label="Main menu">
-        <ul class="navigation" role="menubar">
-            <li class="demo-heading">ijarb</li>
-            <li class="active" role="presentation">
-                <a role="menuitem" class="test" href="https://ijarb.github.io/#" title="Home">Home</a>
-            </li>
-            <li role="presentation">
-                <a role="menuitem" href="https://sites.google.com/bbva.com/enlacesjarb/inicio" title="BBVA">E_BBVA</a>
-            </li>
-            <li role="presentation">
-                <a role="menuitem" aria-haspopup="true" href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="BBVA_links menu">BBVA_links</a>
-                <ul role="menu">
-                    <li role="presentation">
-                        <a role="menuitem" href="https://gist.github.com/iJarb/ed61157dc54870209f4918a4d400a122" title="Test">BBVA_GIST</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="A long one">A long one</a>
-                        <ul id="fourth-sub-submenu">
-                            <li>
-                                <a href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Test1">Test1</a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Test2">Test2</a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Test3">Test3</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li role="presentation">
-                        <a role="menuitem" href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Test">Test</a>
-                    </li>
-                </ul>
-            </li>
-            <li role="presentation">
-                <a role="menuitem" aria-haspopup="true" href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Item 4 menu">Item 4</a>
-                <ul role="menu">
-                    <li role="presentation">
-                        <a role="menuitem" href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Test">Test</a>
-                    </li>
-                    <li role="presentation">
-                        <a role="menuitem" href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="A long one">A long one</a>
-                    </li>
-                    <li role="presentation">
-                        <a role="menuitem" href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Test">Test</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
-<!--
-    <nav class="navigation_container navigation_container2" aria-label="Main menu">
-        <ul class="navigation">
-            <li class="demo-heading">Button menu</li>
-            <li>
-                <a class="test" href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Home">Home</a>
-            </li>
-            <li>
-                <a href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Item 2">Item 2</a>
-            </li>
-            <li>
-                <button aria-expanded="true" aria-controls="third-submenu">Item 3</button>
-                <div>
-                    <ul id="third-submenu">
-                        <li>
-                            <a href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Test">Test</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="A long one">A long one</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Test">Test</a>
-                        </li>
-                    </ul>
-                </div>
-            </li>
-            <li>
-                <button aria-expanded="true" aria-controls="fourth-submenu">Item 4</button>
-                <div>
-                    <ul id="fourth-submenu">
-                        <li>
-                            <a href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Test">Test</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="A long one">A long one</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/robinpoort/vanilla-js-responsive-menu" title="Test">Test</a>
-                        </li>
-                    </ul>
-                </div>
-            </li>
-        </ul>
-    </nav>
--->
-    <div class="site">
-        <h1>Frase del dia</h1>
-        <p><a href="#">Inicio</a></p>
-        <p>Estimate the order of your algorithms</p>
-        <p></p>
-        <p>Get a feel for how long things are likely to take</p>
-        <p>before you write code.</p>
-        <p></p>
-    </div>
-</div>
 
-<!-- loading apollo dependancy -->
-<script src="apollo.js"></script>
-<!-- loading responsive menu -->
-<script src="vanilla.js.responsive.menu.js"></script>
-<!-- initializing the menu -->
-<script type="text/javascript">
-    responsivemenu.init({
-        wrapper: document.querySelector('.navigation_container1'),
-        togglecontent: 'menu',
-        sticky: 1,
-//      animateduration: 1000,
-//      subanimateduration: 1000,
-        onAfterInit: function() {
-            console.log('after init');
-        },
-        onAfterLoad: function() {
-            console.log('after load');
-        },
-        onBeforeToggleOpen: function() {
-            console.log('before toggle open');
-        },
-        onAfterToggleOpen: function() {
-            console.log('after toggle open');
-        },
-        onBeforeToggleClose: function() {
-            console.log('before toggle close');
-        },
-        onAfterToggleClose: function() {
-            console.log('after toggle close');
-        },
-        onBeforeSubToggleOpen: function() {
-            console.log('before sub toggle open');
-        },
-        onAfterSubToggleOpen: function() {
-            console.log('after sub toggle open');
-        },
-        onBeforeSubToggleClose: function() {
-            console.log('before sub toggle close');
-        },
-        onAfterSubToggleClose: function() {
-            console.log('after sub toggle close');
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<style>
+
+body {
+
+    background-image: url('img/grunge_patterns.jpg');
+    background-attachment: fixed;
+    color: #333;
+}
+
+.box {
+    border-radius: 3px;
+    background: rgba(101, 101, 101, 0.7); margin: auto; padding: 12px;
+}
+
+.lightbox {
+    zoom: 1.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(10, 10, 10, 0.8);
+    text-align: center;
+    margin: auto;
+
+}
+
+div.horizontal {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+div.vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+::-webkit-input-placeholder {
+   color: #955;
+   text-align: center;
+}
+
+::-moz-placeholder {
+   color: #955;
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+   color: #955;
+   text-align: center;
+}
+
+</style>
+
+<body>
+
+    <div id="loginbox" class="lightbox" >
+        <div class="horizontal">
+            <div class="vertical">
+                <div class="box">
+                    <input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="password" /> <br />
+                    <button id="loginbutton" type="button">Enter</button>
+                    <p id="wrongPassword" style="display: none">wrong password</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+
+
+     <script type="text/javascript" src="js/sha1.js"></script>
+
+    <script type="text/javascript">
+    "use strict";
+
+
+    function loadPage(pwd) {
+
+        var hash= pwd;
+        hash= Sha1.hash(pwd);
+        var url= hash + "/index.html";
+
+        $.ajax({
+            url : url,
+            dataType : "html",
+            success : function(data) {
+
+                window.location= url;
+
+            },
+            error : function(xhr, ajaxOptions, thrownError) {
+
+
+                parent.location.hash= hash;
+
+                //$("#wrongPassword").show();
+                $("#password").attr("placeholder","wrong password");
+                $("#password").val("");
+            }
+        });
+    }
+
+
+    $("#loginbutton").on("click", function() {
+        loadPage($("#password").val());
+    });
+    $("#password").keypress(function(e) {
+        if (e.which == 13) {
+
+            loadPage($("#password").val());
         }
     });
+    $("#password").focus();
 
-    responsivemenu.init({
-      wrapper: document.querySelector('.navigation_container2'),
-      openOnClick: true,
-      arrowNavigation: true,
-      arrowNavigationCycle: true,
-      arrowGridNav: false,
-    });
-</script>
+    </script>
+
 </body>
 </html>
+<!-- https://github.com/matteobrusa/Password-protection-for-static-pages/blob/master/README.md-->
